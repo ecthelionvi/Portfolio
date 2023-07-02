@@ -1,4 +1,4 @@
-# 🌎 Hosting a Static Website on AWS with a Custom Domain
+# Hosting a Static Website on AWS with a Custom Domain
 
 ## Requirements:
 
