@@ -27,23 +27,6 @@
 - Log into the AWS Management Console, go to the S3 service, and create a new bucket with a name of your choice.
 - Make sure the bucket is in the same region as your CloudFront distribution will be.
 
-#### 1. Install Node.js and npm
-
-If you haven't installed Node.js or npm, you'll need to do so first. You can download Node.js from the [official website](https://nodejs.org/). The Node.js installer includes npm, so installing Node.js should give you both.
-
-#### 2. Check your package.json file
-
-The package.json file should be in the root directory of your project. Open it and look for a `scripts` section. It might look something like this:
-
-```json
-"scripts": {
-  "start": "react-scripts start",
-  "build": "react-scripts build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject"
-},
-```
-
 ### 3. Prepare and upload your website content to the S3 bucket:
 
 - Before uploading your website content, it's crucial to prepare your web application for production. In many web development workflows that involve Node.js (a JavaScript runtime) and npm (Node.js package manager), the `npm run build` command is used. This command executes a script that you define in your `package.json` file, usually involving transforming and optimizing your code for production. The result of this build process is a set of static files (HTML, CSS, JavaScript) that can be served to your users.
