@@ -1,15 +1,7 @@
 {
-  "name": "portfolio-website",
-  "version": "1.0.0",
-  "description": "Custom Portfolio Terminal. Should probably add this to my portfolio website.",
   "scripts": {
-    "start": "parcel index.html --open",
-    "build": "parcel build index.html"
-  },
-  "dependencies": {},
-  "devDependencies": {
-    "@babel/core": "7.2.0",
-    "parcel-bundler": "^1.6.1"
-  },
-  "keywords": []
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+}
 }
